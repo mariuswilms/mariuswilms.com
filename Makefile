@@ -1,3 +1,3 @@
 .PHONY: dev
 dev:
-	php -S 127.0.0.1:8080 -t public
+	python3 -m http.server 8000 --directory public
