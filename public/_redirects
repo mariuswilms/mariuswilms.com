@@ -1,0 +1,7 @@
+# Redirect www to non-www
+https://www.mariuswilms.com/* https://mariuswilms.com/:splat 301
+
+# Redirect nperson.de to mariuswilms.com (if needed)
+https://nperson.de/* https://mariuswilms.com/:splat 301
+http://nperson.de/* https://mariuswilms.com/:splat 301
+
